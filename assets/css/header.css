@@ -1,0 +1,10 @@
+.header__inner {
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn--light {
+    background-color: rgba(250, 250, 250, .25);
+}

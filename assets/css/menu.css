@@ -1,0 +1,16 @@
+.menu {
+    display: flex;
+    column-gap: 30px;
+    margin: 0 15px;
+}
+
+.menu__link {
+    font-size: var(--link-size);
+    font-weight: 700;
+    color: var(--text-light);
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+    
+}
