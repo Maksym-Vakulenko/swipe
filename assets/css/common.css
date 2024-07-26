@@ -1,0 +1,48 @@
+:root {
+    /* Font */
+    --body-font: "Roboto", sans-serif;
+    --heading-font: "Anek Telugu", sans-serif;
+
+    /* Color */
+    --text-dark: #000000;
+    --text-light: #ffffff;
+    --text-grey: #adbdcc;
+    --primary-accent: #0A2540;
+    --purple: #6962F7;
+    --cyan: #00D4FF;
+    --bg-white: #ffffff;
+    --bg-light: #F7F9FC;
+    --bg-dark: #0A2540;
+
+    /* Size */
+    --h1-size: 94px;
+    --h2-size: 40px;
+    --h3-size: 22px;
+    --h4-size: 17px;
+    --p-size: 18px;
+    --p-size-sm: 14px;
+    --link-size: 16px;
+    --section-padding: 32px;
+    --section-padding-sm: 64px;
+    --section-padding-md: 128px;
+    --section-padding-lg: 192px;
+
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
