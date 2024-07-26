@@ -83,14 +83,3 @@ body {
     padding: 0 16px;
     margin: 0 auto;
 }
-
-.btn {
-    font-family: var(--body-font);
-    font-size: var(--btn-size);
-    font-weight: 700;
-    color: var(--text-light);
-    border-radius: 20px;
-    padding: 8px 16px;
-    border: none;
-    cursor: pointer;
-}
