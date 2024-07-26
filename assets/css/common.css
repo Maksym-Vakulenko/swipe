@@ -45,4 +45,9 @@ ol, ul {
     list-style: none;
 }
 
-
+body {
+    background-color: var(--bg-white);
+    font-family: var(--body-font);
+    font-size: var();
+    color: var(--text-dark);
+}
