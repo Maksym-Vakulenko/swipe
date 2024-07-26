@@ -16,11 +16,17 @@
 
     /* Size */
     --h1-size: 94px;
+    --h1-height: 108px;
     --h2-size: 40px;
+    --h2-height: 75px;
     --h3-size: 22px;
+    --h3-height: 28px;
     --h4-size: 17px;
+    --h4-height: 26px;
     --p-size: 18px;
     --p-size-sm: 14px;
+    --p-height: 26px;
+    --p-height-sm: 18px;
     --link-size: 16px;
     --section-padding: 32px;
     --section-padding-sm: 64px;
@@ -48,6 +54,8 @@ ol, ul {
 body {
     background-color: var(--bg-white);
     font-family: var(--body-font);
-    font-size: var();
+    font-size: var(--p-size);
+    font-weight: 400;
+    line-height: var(--p-height);
     color: var(--text-dark);
 }
